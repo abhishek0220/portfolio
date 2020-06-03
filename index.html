@@ -10,6 +10,14 @@
 body,h1 {font-family: "Raleway", Arial, sans-serif}
 h1 {letter-spacing: 6px}
 .w3-row-padding img {margin-bottom: 12px}
+.boxes{
+  padding:10px 10%;
+}
+@media only screen and (max-width: 600px) {
+  .boxes {
+    padding:10px 0%;
+  }
+}
 </style>
 <body>
 
@@ -33,12 +41,12 @@ h1 {letter-spacing: 6px}
   </div>
 </heder>
 <header class="w3-panel w3-center">
-  <div class="w3-padding-32" id="about">
+  <div id="about">
     <div class="w3-row-padding w3-light-grey w3-container" style="padding: 128px 16px">
       <div class="w3-content">
         <div>
           <h1>ABOUT Me</h1>
-          <h5 class="w3-padding-32">Pursuing Bachelor of Technology - BTech focused in Computer Science from Indian Institute of Technology, Jammu. Huge interest in programming and problem-solving love to do Comptetive Coding and writing backend for <b>APIs</b>. Skilled in <b>Python, C++, Rest API, Azure</b>. Currently <b>Coding Club Coordinator</b> at <b>IIT JAMMU</b> and <b>Microsoft Student Partner</b>. Completed <b>Data Science</b> and <b>Networking</b> Internship at <b>IIT Jammu</b> in collaboration with <b>Arista Networks</b>. </h5>
+          <h5 class="w3-padding-32" style="text-align: justify;">Pursuing Bachelor of Technology - BTech focused in Computer Science from Indian Institute of Technology, Jammu. Huge interest in programming and problem-solving love to do Competitive Coding and writing backend for <b>APIs</b>. Skilled in <b>Python, C++, Rest API, Azure</b>. Currently <b>Coding Club Coordinator</b> at <b>IIT JAMMU</b> and <b>Microsoft Student Partner</b>. Completed <b>Data Science</b> and <b>Networking</b> Internship at <b>IIT Jammu</b> in collaboration with <b>Arista Networks</b>. </h5>
         </div>
         <!--
         <div class="w3-row">
@@ -50,10 +58,10 @@ h1 {letter-spacing: 6px}
     </div>
   </header>
   <header class="w3-panel w3-center" id="edu">
-    <h1 class="w3-xxlarge" style="padding:50px"><b>Education</b></h1>
+    <h1 class="w3-xxlarge" style="text-align: center;"><b>Education</b></h1>
     <div class="w3-row">
       <div class="w3-col s12 l12">
-    <div class="w3-bar w3-border" style="padding:10px 10%">
+    <div class="w3-bar w3-border boxes">
       <div class="w3-container">
           <h3 class="w3-opacity"><b>INDIAN INSTITUTE OF TECHNOLOGY, JAMMU</b></h3>
           <h4 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2018 - Present</h4>
@@ -74,8 +82,8 @@ h1 {letter-spacing: 6px}
 </div>
   </header>
   <header class="w3-panel w3-center" id="ach">
-    <h1 class="w3-xxlarge" style="padding:50px"><b>Achivements</b></h1>
-    <div class="w3-bar w3-border" style="padding:16px 128px">
+    <h1 class="w3-xxlarge" style="text-align: center;"><b>Achivements</b></h1>
+    <div class="w3-bar w3-border boxes">
       <div class="w3-container w3-margin-right">
           <h4 class="w3-text-teal"><i class="fa fa-arrow-right fa-fw w3-margin-right"></i>3rd rank in Technunctus Programming Competition onsite round</h4>
       </div>
@@ -100,7 +108,7 @@ h1 {letter-spacing: 6px}
     </div>
   </div>
 </header>
-<header class="w3-container w3-center w3-padding-32" id="pro">
+<header class="w3-container w3-center" id="pro">
   <h1><b>My Projects</b></h1>
   <p>Welcome to the project section of <span class="w3-tag">Abhishek</span></p>
 
@@ -128,6 +136,30 @@ h1 {letter-spacing: 6px}
   </div>
 </div>
 <hr>  
+<div class="w3-row w3-center">
+  <!-- Blog entries -->
+  <div class="w3-col l2 s12">
+    <p></p>
+  </div>
+  <div class="w3-col l8 s12">
+    <!-- Blog entry -->
+    <div class="w3-card-4 w3-margin w3-white">
+      <div class="w3-container">
+        <h3><b>Technunctus Website</b></h3>
+        <h5>Technunctus is IIT Jammu`s annual Technical Fest</h5>
+      </div>
+      <div class="w3-container">
+        <p>Developed Technunctus Website written in HTML, JS, CSS in very short span of time.</p>
+        <div class="w3-row">
+          <div class="w3-col m8 s12">
+            <p><button class="w3-button w3-padding-large w3-white w3-border" onclick="window.location.href = 'https://github.com/coding-club-iit-jammu/Technunctus_2020';"><b>View Code &raquo;</b></button></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
 <div class="w3-row w3-center">
   <!-- Blog entries -->
   <div class="w3-col l2 s12">
